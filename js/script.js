@@ -17,6 +17,6 @@ btnGenerate.addEventListener("click", () =>{
     // chama a função htmltopdf, anexa a formatação que criei ali em cima em options,
     //  o from pega o conteúdo do pdf,
     //  neste caso é o que está na "content" e o método "save" será usado para salvar o pdf
-    html2pfd().set(options).from(content).save();
+    html2pdf().set(options).from(content).save();
 });
 
